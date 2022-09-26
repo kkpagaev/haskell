@@ -1,3 +1,3 @@
 @echo off
 
-docker run -it -v %HASKELLPATH%:/hs haskell:9 bash
+docker run -it --rm -v %HASKELLPATH%:/hs haskell:9 bash
